@@ -73,3 +73,6 @@ This would result in the following being rendered, assuming that `Model.Id` retu
 <a href="/doAThing/42">link text</a>
 ```
 
+## Project Submission
+
+Submit your project by completing the [Project Submission Form](https://docs.google.com/forms/d/1V5ymUhTxSUwEKyh8NTlyWNHWYSi4EFzsVLp1eTZekCQ/edit).
