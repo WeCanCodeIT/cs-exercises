@@ -42,7 +42,7 @@ Find the rubric [here](./rubric.md).
 
 #### Iteration
 
-We use `@foreach()` to iterate over collections in Thymeleaf. If I had a collection called `Widgets` in my model, each of these having a `Name` attribute, I would do the following to generate a `<div>` for each of these. `Widget` is the name of my iteration variable, much like the for each loops you're familar with:
+We use `@foreach()` to iterate over collections in Razor. If I had a collection called `Widgets` in my model, each of these having a `Name` attribute, I would do the following to generate a `<div>` for each of these. `Widget` is the name of my iteration variable, much like the for each loops you're familar with:
 
 ```HTML
 @foreach (var widget in Model.Widgets)
@@ -73,5 +73,3 @@ This would result in the following being rendered, assuming that `Model.Id` retu
 <a href="/doAThing/42">link text</a>
 ```
 
-#### References
-- [Thymeleaf Tutorial](http://www.thymeleaf.org/doc/tutorials/2.1/usingthymeleaf.html) (Note: this is not specific to using it with Spring MVC)
