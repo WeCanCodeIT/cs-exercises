@@ -5,7 +5,7 @@
 - Students will `Model` a `CourseTopic` and setup a `CourseController` to handle GET requests to display many and one courses in a `View`
 
 ### Definitions
-- **`Repository`**: A "Repository", originally defined by Domain-Driven Design (Evans, 2003) as "a mechanism for encapsulating storage, retrieval, and search behavior which emulates a collection of objects".
+- **`Repository`**: A "Repository", originally defined by Domain-Driven Design (Evans, 2005) as "a mechanism for encapsulating storage, retrieval, and search behavior which emulates a collection of objects".
 - **`Controller`**: Handles HTTP Requests
 - **`Container`**: The container is responsible for injecting an instance of the requested resource into the application component when the component is initialized.
 - **`Route Mappings`**: Route Mappings are used to map web requests onto specific handler classes (Controllers) and/or handler methods (Actions).

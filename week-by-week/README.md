@@ -15,7 +15,7 @@
 5. Portfolio
 
 ## Week 7 - Entity Framework Core
-1. Intro to Code First EF (Unit Test Examples)
+1. Intro to Code First EF (Demo with Integration Test Examples)
 2. Code First EF & MVC
 3. Bootstrap Essentials & CRUD app(Courses, Topics, Textbooks)
 4. CRUD continued
