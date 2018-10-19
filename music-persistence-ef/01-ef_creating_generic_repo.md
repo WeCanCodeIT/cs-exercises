@@ -30,6 +30,7 @@ In the `EFCoreTutorial` project, complete the following steps:
 1. Use Nuget to add the `Microsoft.EntityFrameworkCore` dependency.
 1. Use Nuget to add the `Microsoft.EntityFrameworkCore.SqlServer` dependency.
 1. Use Nuget to add the `Microsoft.EntityFrameworkCore.Tools` dependency.
+1. Use Nuget to add the `Microsoft.EntityFrameworkCore.Proxies` dependency.
 1. Add a folder named `Models`.
 1. Add a class called `Song` to the `Models` folder.
 1. Add the following properties to the `Song` class.
@@ -69,7 +70,8 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 {
     var connectionString = "Server=(localdb)\\mssqllocaldb;Database=MusicTesting;Trusted_Connection=True;";
 
-    optionsBuilder.UseSqlServer(connectionString);
+    optionsBuilder.UseSqlServer(connectionString)
+                  .UseLazyLoadingProxies();
     
     base.OnConfiguring(optionsBuilder);
 }
