@@ -26,6 +26,7 @@ Feel free to use appropriate class names other than `Review` and `Category`, but
     - [ ] Microsoft.EntityFrameworkCore
     - [ ] Microsoft.EntityFrameworkCore.Tools
     - [ ] Microsoft.EntityFrameworkCore.SqlServer
+    - [ ] Microsoft.EntityFrameworkCore.Proxies
 - Create a `Category` class that:
     - [ ] it is an EF entity
     - [ ] contains a property referencing the `Review`s it is associated with.
@@ -33,8 +34,8 @@ Feel free to use appropriate class names other than `Review` and `Category`, but
     - [ ] it is an EF entity
     - [ ] configures a relationship to its associated category.
 - Use seed data to create some `Review`s and `Category`s.
-    - [ ] `override` `OnModelConfiguring`
-    - [ ] Use the `ModelBuilder` to indicate which entities have which data.
+    - [ ] `override` `OnModelCreating`
+    - [ ] Use the `modelBuilder` to indicate which entities have which data.
     - [ ] Create a migration and apply the seed data to your database.
 - Update your view (templates/html/css) such that:
     - [ ] there is a page that lists review categories, each of which links to the (details) page for a specific category.

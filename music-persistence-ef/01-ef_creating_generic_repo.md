@@ -1,5 +1,7 @@
 # Setting up Entity Framework Core
 
+TODO: Add Seed Data
+
 ## Creating the Solution & Projects
 
 For this tutorial, we'll create a repository that's able to Create, Read, Update and Delete records container in a SQL Server Database.  Let's get started.
@@ -84,6 +86,7 @@ You'll need to add a few `using` statements to get this code to work.
 ### Red
 
 In the `Tests` project, create a test fixture for our `SongRepository` and run a sample test to make sure you can see it fail.
+
 
 ```csharp
 public class SongRepositoryTests
