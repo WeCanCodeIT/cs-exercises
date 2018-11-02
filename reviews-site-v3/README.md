@@ -20,7 +20,7 @@ STRETCH TASK: Be careful not to create a new tag if a tag with that name already
 
 Add comments to reviews. Comments should be listed on a review's page after the review's content.
 
-Create a form on a review's page that adds a comment to a review. Use AJAX to create the comment. After submitting a comment, add the new comment to the list of comments using DOM manipulation.
+Using appropriate HTML elements and AJAX, allow the user to add a comment to a review. Use AJAX to create the comment. After submitting a comment, add the new comment to the list of comments using DOM manipulation.
 
 ### Things to ponder
 
